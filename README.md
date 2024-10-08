@@ -26,12 +26,12 @@ Data Transformation
 The data undergoes specific preprocessing steps to enhance the model's learning process, including:
 
 1. Training Data Transformations:
-* Resizing: All images are resized to the input size of 224x224 pixels to ensure uniformity.
-* Random Horizontal Flip: Flips the images horizontally with a probability of 50%, introducing variation in the training data.
-* Random Vertical Flip: Flips the images vertically with a probability of 50%, providing further augmentation.
-* Color Jitter: Randomly changes the brightness of the images to a maximum of 50%, adding brightness variation to make the model more robust to different lighting conditions.
-* Conversion to Tensor: Transforms the images into a tensor format suitable for input to a neural network.
+  * Resizing: All images are resized to the input size of 224x224 pixels to ensure uniformity.
+  * Random Horizontal Flip: Flips the images horizontally with a probability of 50%, introducing variation in the training data.
+  * Random Vertical Flip: Flips the images vertically with a probability of 50%, providing further augmentation.
+  * Color Jitter: Randomly changes the brightness of the images to a maximum of 50%, adding brightness variation to make the model more robust to different lighting conditions.
+  * Conversion to Tensor: Transforms the images into a tensor format suitable for input to a neural network.
 2. Test Data Transformations:
-* Resizing: The test images are also resized to 224x224 pixels to match the training data size.
-* Conversion to Tensor: Converts the test images into tensors without additional augmentations to keep the test data standardized for evaluation.
+  * Resizing: The test images are also resized to 224x224 pixels to match the training data size.
+  * Conversion to Tensor: Converts the test images into tensors without additional augmentations to keep the test data standardized for evaluation.
 
