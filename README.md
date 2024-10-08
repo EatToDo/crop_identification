@@ -9,17 +9,27 @@ The project employs a robust training and evaluation pipeline using **PyTorch**,
 The dataset used in this project contains images of the following ten crop types along with a class for bare land:
 
 - **Guava**
-- ![Guava Image](pictures/guava.15.png)
+![Guava Image](pictures/guava.15.png)
 - **Atemoya**
+![Atemoya Image](pictures/atemoya.13.png)
 - **Carrot**
+![Carrot Image](pictures/carrot.61.png)
 - **Cabbage**
+![Cabbage Image](pictures/cabbage.6.png)
 - **Banana**
+![Banana Image](pictures/banana.19.png)
 - **Grape**
+![Grape Image](pictures/grapes.26.png)
 - **Pineapple**
+![Pineapple Image](pictures/pineapple.14.png)
 - **Mango**
+![Mango Image](pictures/mango.3.png)
 - **Papaya**
+![Papaya Image](pictures/papaya.20.png)
 - **Pumpkin**
+![Pumpkin Image](pictures/pumpkin.19.png)
 - **Bare land**
+![Bare land Image](pictures/bareland.11.png)
 
 Each class comprises **300 images**, and all images are uniformly sized at **224x224 pixels**. This standardization ensures consistency in the model training and evaluation processes.
 
