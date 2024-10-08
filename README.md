@@ -98,6 +98,14 @@ To comprehensively evaluate the model's performance, we used the following metri
 <details>
   <summary> Discussion</summary>
 
-### 
-
+### Misclassification
+- **The data classification was originally wrong.**
+  ![wrong](pictures/wrong_cate/papaya.104.png)
+- **There are many kinds of plants in the picture.**
+  ![wrong-1](pictures/multi_planes/papaya.58.png)
+  ![wrong-2](pictures/multi_planes/papaya.71.png)
+  ![wrong-3](pictures/multi_planes/papaya.159.png)
+- **Something blocks it.**
+   ![wrong-4](pictures/insufficient/papaya.38.png)
+   ![wrong-5](pictures/insufficient/papaya.220.png)
 </details>
