@@ -15,27 +15,27 @@ The project employs a robust training and evaluation pipeline using **PyTorch**,
 The dataset used in this project contains images of the following ten crop types along with a class for bare land:
 
 - **Guava**
-  <img src="pictures/guava.15.png" width="100" height="100">
+  <img src="pictures/guava.15.png" width="250" height="250">
 - **Atemoya**
-  <img src="pictures/atemoya.13.png" width="100" height="100">
+  <img src="pictures/atemoya.13.png" width="250" height="250">
 - **Carrot**
-  <img src="pictures/carrot.61.png" width="100" height="100">
+  <img src="pictures/carrot.61.png" width="250" height="250">
 - **Cabbage**
-  <img src="pictures/cabbage.6.png" width="100" height="100">
+  <img src="pictures/cabbage.6.png" width="250" height="250">
 - **Banana**
-  <img src="pictures/banana.19.png" width="100" height="100">
+  <img src="pictures/banana.19.png" width="250" height="250">
 - **Grape**
-  <img src="pictures/grapes.26.png" width="100" height="100">
+  <img src="pictures/grapes.26.png" width="250" height="250">
 - **Pineapple**
-  <img src="pictures/pineapple.14.png" width="100" height="100">
+  <img src="pictures/pineapple.14.png" width="250" height="250">
 - **Mango**
-  <img src="pictures/mango.3.png" width="100" height="100">
+  <img src="pictures/mango.3.png" width="250" height="250">
 - **Papaya**
-  <img src="pictures/papaya.20.png" width="100" height="100">
+  <img src="pictures/papaya.20.png" width="250" height="250">
 - **Pumpkin**
-  <img src="pictures/pumpkin.19.png" width="100" height="100">
+  <img src="pictures/pumpkin.19.png" width="250" height="250">
 - **Bare land**
-  <img src="pictures/bareland.11.png" width="100" height="100">
+  <img src="pictures/bareland.11.png" width="250" height="250">
 
 
 Each class comprises **300 images**, and all images are uniformly sized at **224x224 pixels**. This standardization ensures consistency in the model training and evaluation processes.
