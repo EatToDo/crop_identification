@@ -9,6 +9,7 @@ The project employs a robust training and evaluation pipeline using **PyTorch**,
 The dataset used in this project contains images of the following ten crop types along with a class for bare land:
 
 - **Guava**
+- ![Guava Image](pictures/guava.15.png)
 - **Atemoya**
 - **Carrot**
 - **Cabbage**
