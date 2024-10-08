@@ -49,10 +49,10 @@ The primary algorithm used in this project is the **Convolutional Neural Network
 
 ### Hyperparameter Tuning
 For hyperparameter tuning, we focused on optimizing several key parameters to improve model performance:
-- **Learning Rate**: We experimented with different learning rates, starting from an initial value (e.g., 0.01) and adjusting it dynamically based on the model's convergence.
-- **Batch Size**: A batch size of 16 was selected to balance training speed and memory efficiency.
+- **Learning Rate**: We experimented with different learning rates, starting from an initial value **0.0001** and adjusting it dynamically based on the model's convergence.
+- **Batch Size**: A batch size of **16** was selected to balance training speed and memory efficiency.
 - **Optimizer**: We used the **Stochastic Gradient Descent (SGD)** optimizer with a momentum of 0.9. The momentum helps in accelerating gradients vectors that are in the right directions, thus leading to faster converging.
-- **Data Augmentation**: Techniques like horizontal and vertical flipping, as well as color jittering, were used to artificially increase the diversity of the training dataset.
+- **Data Augmentation**: Techniques like **horizontal and vertical flipping**, as well as **color jittering**, were used to artificially increase the diversity of the training dataset.
 
 </details>
 
