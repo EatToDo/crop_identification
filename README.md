@@ -42,7 +42,7 @@ Each class comprises **300 images**, and all images are uniformly sized at **224
 </details>
 
 <details>
-  <summary> Methodology and Model Selection</summary>
+  <summary> Model Selection</summary>
 
 ### Algorithm Selection
 The primary algorithm used in this project is the **Convolutional Neural Network (CNN)**. CNNs are a type of deep learning algorithm that are particularly well-suited for image classification tasks due to their ability to automatically and adaptively learn spatial hierarchies of features from input images. We chose CNNs because of their proven effectiveness in recognizing patterns, textures, and shapes in image data, which is essential for accurately classifying different crop types from their visual representations.
