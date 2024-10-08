@@ -48,3 +48,57 @@ To enhance the model's learning capabilities, specific preprocessing steps are a
    - **Conversion to Tensor**: Test images are converted into tensors without additional augmentations to provide a standardized dataset for evaluating the model's performance.
 
 These transformations are designed to increase the model's generalization capability by creating diverse variations in the training data while maintaining the consistency of the test data for accurate performance evaluation.
+
+## Methodology and Model Selection
+
+### Algorithm Selection
+The primary algorithm used in this project is the **Convolutional Neural Network (CNN)**. CNNs are a type of deep learning algorithm that are particularly well-suited for image classification tasks due to their ability to automatically and adaptively learn spatial hierarchies of features from input images. We chose CNNs because of their proven effectiveness in recognizing patterns, textures, and shapes in image data, which is essential for accurately classifying different crop types from their visual representations.
+
+### Model Architecture
+The architecture of our model is based on a multi-layer convolutional neural network that includes the following layers:
+- **Convolutional Layers**: Extract low-level features like edges, textures, and patterns from the images.
+- **Activation Functions**: We use ReLU (Rectified Linear Unit) to introduce non-linearity, which helps the network learn complex patterns.
+- **Pooling Layers**: Max-pooling layers are applied to reduce the spatial dimensions of the feature maps, thereby lowering computational cost and controlling overfitting.
+- **Fully Connected Layers**: These layers take the high-level features learned by the convolutional layers and translate them into class scores.
+- **Softmax Layer**: The output layer uses the softmax activation function to produce probability distributions for each class in the dataset, enabling multi-class classification.
+
+This architecture is specifically designed to handle the classification of multiple crop types and has been optimized for accuracy and computational efficiency.
+
+### Hyperparameter Tuning
+For hyperparameter tuning, we focused on optimizing several key parameters to improve model performance:
+- **Learning Rate**: We experimented with different learning rates, starting from an initial value (e.g., 0.01) and adjusting it dynamically based on the model's convergence.
+- **Batch Size**: A batch size of 16 was selected to balance training speed and memory efficiency.
+- **Optimizer**: We used the **Stochastic Gradient Descent (SGD)** optimizer with a momentum of 0.9. The momentum helps in accelerating gradients vectors that are in the right directions, thus leading to faster converging.
+- **Data Augmentation**: Techniques like horizontal and vertical flipping, as well as color jittering, were used to artificially increase the diversity of the training dataset.
+
+These hyperparameters were fine-tuned using a combination of grid search and empirical analysis to find the optimal configuration that maximizes the model's accuracy while minimizing the loss.
+
+## Experimental Design
+
+### Training/Test Split
+The dataset was divided into two main subsets to train and evaluate the model:
+- **Training Set**: 80% of the data was used for training the model. This subset was used to learn the features and patterns associated with each crop type.
+- **Test Set**: The remaining 20% of the data was reserved as the test set, which provides an unbiased evaluation of the model's performance on unseen data.
+
+This split ensures that the model is trained on a sufficiently large portion of the dataset while being evaluated on a separate set to gauge its generalization capabilities.
+
+### Model Training
+The model training process involved the following steps:
+1. **Data Preprocessing**: The input images were resized to 224x224 pixels and underwent data augmentation to improve the model's robustness against overfitting.
+2. **Training Loop**: The training was conducted over a fixed number of epochs (controlled by the `config["epoch"]` parameter), during which the model's parameters were updated using backpropagation and the optimizer's learning rule.
+3. **Batch Processing**: A batch size of 16 was used to process the data in smaller chunks, making the training process more memory efficient.
+4. **Learning Rate and Optimizer**: We used an initial learning rate defined in the configuration file and the SGD optimizer with momentum to ensure faster convergence and stable updates.
+
+### Evaluation Metrics
+To comprehensively evaluate the model's performance, we used the following metrics:
+- **Accuracy**: Measures the overall percentage of correctly classified samples in the dataset.
+- **Precision**: Evaluates the accuracy of positive predictions, i.e., how many of the predicted positive instances were actually positive.
+- **Recall**: Measures the ability of the model to identify all relevant instances, i.e., how many actual positives were correctly identified by the model.
+- **F1 Score**: The harmonic mean of precision and recall, which provides a balanced measure that considers both false positives and false negatives.
+
+These metrics were chosen to provide a thorough understanding of the model's strengths and weaknesses in handling class imbalances and to give insight into its ability to generalize to new data.
+
+The performance of the model was tracked and logged using TensorBoard, allowing for real-time visualization of the training and validation metrics such as loss, accuracy, precision, recall, and F1 score.
+
+This experimental design enables systematic evaluation and continuous monitoring, ensuring that the model's improvements are guided by data-driven insights.
+
