@@ -1,7 +1,7 @@
 # Crop Identification
 
 <details>
-  <summary>## Introduction</summary>
+  <summary> Introduction</summary>
 
 This project focuses on developing a machine learning-based **task recognition system** to classify various **crop types from images**. The primary objective is to accurately identify different crops using a given dataset, which includes ten distinct crop types and bare land. Each class in the dataset consists of **300 images** with a resolution of **224x224 pixels**, ensuring balanced data for training and evaluation.
 
@@ -10,7 +10,7 @@ The project employs a robust training and evaluation pipeline using **PyTorch**,
 </details>
 
 <details>
-  <summary>## Data Description</summary>
+  <summary> Data Description</summary>
 
 The dataset used in this project contains images of the following ten crop types along with a class for bare land:
 
@@ -42,7 +42,7 @@ Each class comprises **300 images**, and all images are uniformly sized at **224
 </details>
 
 <details>
-  <summary>## Methodology and Model Selection</summary>
+  <summary> Methodology and Model Selection</summary>
 
 ### Algorithm Selection
 The primary algorithm used in this project is the **Convolutional Neural Network (CNN)**. CNNs are a type of deep learning algorithm that are particularly well-suited for image classification tasks due to their ability to automatically and adaptively learn spatial hierarchies of features from input images. We chose CNNs because of their proven effectiveness in recognizing patterns, textures, and shapes in image data, which is essential for accurately classifying different crop types from their visual representations.
@@ -57,7 +57,7 @@ For hyperparameter tuning, we focused on optimizing several key parameters to im
 </details>
 
 <details>
-  <summary>## Experimental Design</summary>
+  <summary> Experimental Design</summary>
 
 ### Training/Test Split
 - **Training Set**: 80% of the data was used for training the model. This subset was used to learn the features and patterns associated with each crop type.
