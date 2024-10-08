@@ -83,12 +83,13 @@ To comprehensively evaluate the model's performance, we used the following metri
   <summary> Result</summary>
 
 ### Performance
-- **Accuracy**: 
-- **Precision**: 
-- **Recall**: 
-- **F1 Score**: 
+- **Accuracy**: **96.04%**
+- **Precision**: **0.9607**
+- **Recall**: **0.9605**
+- **F1 Score**: **0.9602**
 
 ### Confusion Matrix
+![Confusion Matrix](pictures/confusion_matrix.png)
 
 
 </details>
