@@ -8,17 +8,17 @@ The project is designed to implement a robust training and evaluation pipeline u
 # Data Description
 The dataset used in this project contains images of crops, specifically organized into ten distinct crop types along with a class for bare land. Each class consists of 300 images, making the dataset balanced across all categories. The crops included in this dataset are:
 
-Guava
-Atemoya
-Carrot
-Cabbage
-Banana
-Grape
-Pineapple
-Mango
-Papaya
-Pumpkin
-Bare land
+* Guava
+* Atemoya
+* Carrot
+* Cabbage
+* Banana
+* Grape
+* Pineapple
+* Mango
+* Papaya
+* Pumpkin
+* Bare land
 Each image has a resolution of 224x224 pixels, which has been standardized for consistency in model training and evaluation.
 
 Data Transformation
