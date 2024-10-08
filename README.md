@@ -77,3 +77,26 @@ To comprehensively evaluate the model's performance, we used the following metri
 - **F1 Score**: The harmonic mean of precision and recall, which provides a balanced measure that considers both false positives and false negatives.
 
 </details>
+
+
+<details>
+  <summary> Result</summary>
+
+### Performance
+- **Accuracy**: 
+- **Precision**: 
+- **Recall**: 
+- **F1 Score**: 
+
+### Confusion Matrix
+
+
+</details>
+
+
+<details>
+  <summary> Discussion</summary>
+
+### 
+
+</details>
