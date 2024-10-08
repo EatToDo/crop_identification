@@ -15,27 +15,28 @@ The project employs a robust training and evaluation pipeline using **PyTorch**,
 The dataset used in this project contains images of the following ten crop types along with a class for bare land:
 
 - **Guava**
-  ![Guava Image](pictures/guava.15.png)
+  <img src="pictures/guava.15.png" width="100" height="100">
 - **Atemoya**
-  ![Atemoya Image](pictures/atemoya.13.png)
+  <img src="pictures/atemoya.13.png" width="100" height="100">
 - **Carrot**
-  ![Carrot Image](pictures/carrot.61.png)
+  <img src="pictures/carrot.61.png" width="100" height="100">
 - **Cabbage**
-  ![Cabbage Image](pictures/cabbage.6.png)
+  <img src="pictures/cabbage.6.png" width="100" height="100">
 - **Banana**
-  ![Banana Image](pictures/banana.19.png)
+  <img src="pictures/banana.19.png" width="100" height="100">
 - **Grape**
-  ![Grape Image](pictures/grapes.26.png)
+  <img src="pictures/grapes.26.png" width="100" height="100">
 - **Pineapple**
-  ![Pineapple Image](pictures/pineapple.14.png)
+  <img src="pictures/pineapple.14.png" width="100" height="100">
 - **Mango**
-  ![Mango Image](pictures/mango.3.png)
+  <img src="pictures/mango.3.png" width="100" height="100">
 - **Papaya**
-  ![Papaya Image](pictures/papaya.20.png)
+  <img src="pictures/papaya.20.png" width="100" height="100">
 - **Pumpkin**
-  ![Pumpkin Image](pictures/pumpkin.19.png)
+  <img src="pictures/pumpkin.19.png" width="100" height="100">
 - **Bare land**
-  ![Bare land Image](pictures/bareland.11.png)
+  <img src="pictures/bareland.11.png" width="100" height="100">
+
 
 Each class comprises **300 images**, and all images are uniformly sized at **224x224 pixels**. This standardization ensures consistency in the model training and evaluation processes.
 
@@ -89,7 +90,7 @@ To comprehensively evaluate the model's performance, we used the following metri
 - **F1 Score**: **0.9602**
 
 ### Confusion Matrix
-![Confusion Matrix](pictures/confusion_matrix.png)
+<img src="pictures/confusion_matrix.png" width="400" height="400">
 
 
 </details>
@@ -100,12 +101,15 @@ To comprehensively evaluate the model's performance, we used the following metri
 
 ### Misclassification
 - **The data classification was originally wrong.**
-  ![wrong](pictures/wrong_cate/papaya.104.png)
+  <img src="pictures/wrong_cate/papaya.104.png" width="100" height="100">
+
 - **There are many kinds of plants in the picture.**
-  ![wrong-1](pictures/multi_planes/papaya.58.png)
-  ![wrong-2](pictures/multi_planes/papaya.71.png)
-  ![wrong-3](pictures/multi_planes/papaya.159.png)
+  <img src="pictures/multi_planes/papaya.58.png" width="100" height="100">
+  <img src="pictures/multi_planes/papaya.71.png" width="100" height="100">
+  <img src="pictures/multi_planes/papaya.159.png" width="100" height="100">
+
 - **Something blocks it.**
-   ![wrong-4](pictures/insufficient/papaya.38.png)
-   ![wrong-5](pictures/insufficient/papaya.220.png)
+   <img src="pictures/insufficient/papaya.38.png" width="100" height="100">
+   <img src="pictures/insufficient/papaya.220.png" width="100" height="100">
+
 </details>
