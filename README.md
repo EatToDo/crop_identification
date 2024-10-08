@@ -90,7 +90,7 @@ To comprehensively evaluate the model's performance, we used the following metri
 - **F1 Score**: **0.9602**
 
 ### Confusion Matrix
-<img src="pictures/confusion_matrix.png" width="400" height="400">
+![Confusion Matrix](pictures/confusion_matrix.png)
 
 
 </details>
